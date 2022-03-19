@@ -1,0 +1,79 @@
+body{
+    background-color: #202124;
+    overflow: hidden;
+}
+h1{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+h3{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+h4{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+h5{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+h6{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+.gag{
+    text-align: center;
+    margin-top: -25px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: black;
+}
+.focus{
+    text-align: center;
+}
+.focus_image{
+    float: left;
+    padding-top: 75px;
+    padding-left:350px;
+}
+.focus_text_a{
+    clear: both;
+    position: relative;
+    bottom: 270px;
+    left: 120px;
+    font-size: 50px;
+    line-height: 0px;
+}
+.focus_text_b{
+    clear: both;
+    position: relative;
+    bottom: 270px;
+    left: 200px;
+    font-size: 30px;
+    line-height: 0px;
+}
+.personal{
+    text-align: left;
+    float: left;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+.contacts_main{
+    text-align: right;
+    padding-top: 45px;
+    padding-left: 10px;
+}
+.contacts_c{
+    padding-right: 167px;
+}
+.contacts_p{
+    padding-right: 55px;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: white;
+    text-decoration: none;
+}
