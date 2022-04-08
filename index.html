@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--also make it diffrent for mobile devices-->
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css">
@@ -8,29 +8,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <section class="gag">
-        <h4>Click here to reveal my word of the day</h4>
-    </section>
-    <section class="focus">
-            <img  class = "focus_image" src="placeholder_face3.PNG" alt="Moksh Shah">
-            <h1 class="focus_text_a">Hello, My name is Moksh</h1>
-            <h5 class="focus_text_b">Student at Ryerson University</h5>
-    </section>
-    <section class="personal">
-        <div>
-            <h4><a href="https://www.linkedin.com/in/moksh-shah-185515232/" target="_blank">Linked-In</a></h4>
-            <h4><a href="https://github.com/mokshshah18" target="_blank">Github</a></h4>
-            <!-- <h4><a href="Projects.html" target="_blank">My projects</a></h4> -->
-            <h4><a href="https://project-liquid.itch.io/lord-mumbo-jumps" target="_blank">A 3-D Video Game I made using Unreal Engine 4</a></h4>
-            <h4><a href="https://project-liquid.itch.io/project-unkown" target="_blank">A 2-D Video Game I made using SFML(a c++ library)</a></h4>
-            <h4><a href="Moksh Shah Resume.pdf" download="Moksh_Shah_Resume" target="_blank">Download Resume</a></h4>
-        </div>
-    </section>
-    <section class="contacts_main">
-        <h4 class="contacts_c">Contact me here</h4>
-        <h4>Email address : acams1803@gmail.com</h4>
-        <h4 class = "contacts_p">Phone number : +1(647)913-6108</h4>
-    </section>
+
+    <!-- Nav Bar -->
+    <header>
+      <nav class="Nav_entry">
+          <ul><a href="https://www.linkedin.com/in/moksh-shah-185515232/" target="_blank">Linked-in</a></ul>
+          <ul><a href="Moksh_Shah_Resume.pdf" download="Moksh_Shah_Resume" target="_blank">Download my Resume</a></ul>
+          <ul><a href="https://github.com/mokshshah18" target="_blank">Github</a></ul>
+      </nav>
+    </header>
+
+    <!-- Home text -->
+    <div class="introduction">
+      <h1 id="name">Moksh Shah</h1>
+      <ul id="description">Software developer and  <a href="https://www.ryerson.ca/programs/undergraduate/computer-science/" target="_blank"><u>Computer Science student at Ryerson University</u></a></ul>
+    </div>
+
+
+    <div class="projects">
+      <ul><b>Featured projects:</b></ul>
+    </div>
+
+    <section class="container">
+      <div class="project_card">
+        <h2 class="card_name"><u><a href="https://project-liquid.itch.io/project-unkown" target="_blank">3-D game</a></u></h2>
+        <p  class="card_desc">I made a 3-D game using Unreal Engine 4.</p>
+      </div>
+      <div class="project_card">
+        <h2 class="card_name"><u><a href="https://project-liquid.itch.io/lord-mumbo-jumps" target="_blank">2-D game</a></u></h2>
+        <p class="card_desc">I made a 2-D game using SFML(A c++ library).</p>
+      </div>
+  </section>
+
+
+  <div class="work">  
+    <ul><b>Relavant work Experiance:</b></ul>
+  </div>
+    
+  <div class="work_card">
+    <h2 class="card_name">Private Tutor</h2>
+    <p  class="card_desc">Taught younger kids, HTML, CSS, Python and the basics of Microsoft Office</p>
+  </div>
+  
+  <hr class = "lines" id="pre_footer_line">
+
+  <div class="footer">
+    <ul>
+      <li>Email : acmas1803@gmail.com&nbsp;&nbsp;</li>
+      <li>Phone Number : +1(647)913-6108&nbsp;&nbsp;</li>
+    </ul>
+  </div>
+    
+  <hr class="lines" id="end_line">
   </body>
 </html>
